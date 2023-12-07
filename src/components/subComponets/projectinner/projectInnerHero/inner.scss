@@ -1,0 +1,12 @@
+.home-hero-inner::before {
+  content: "";
+  position: absolute;
+  background-image: url("./Frame\ 1000000916.png");
+  z-index: -1;
+  background-color: azure;
+  height: 834px;
+  width: 100%;
+  background-size: 100%;
+  top: 0px;
+}
+

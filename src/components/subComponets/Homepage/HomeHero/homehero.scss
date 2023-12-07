@@ -1,0 +1,30 @@
+.home-hero::before {
+  content: "";
+  position: absolute;
+
+  background-image: url("./assets//unsplash_gREquCUXQLI.png");
+  z-index: -1;
+  background-color: azure;
+  height: 834px;
+  width: 100%;
+  // background-size: 100%;
+  top: 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 1300px) and (max-width: 1920px) {
+  .home-hero::before {
+    content: "";
+    position: absolute;
+    background-image: url("./assets//unsplash_gREquCUXQLI.png");
+    z-index: -1;
+    background-color: azure;
+    height: 834px;
+    width: 100%;
+    background-size: 100%;
+    top: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}

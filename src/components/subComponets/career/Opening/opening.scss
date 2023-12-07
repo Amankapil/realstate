@@ -1,0 +1,19 @@
+.opening-btn::before {
+  content: "";
+  position: absolute;
+  background-image: url("arrow.svg");
+  width: 66px;
+  height: 66px;
+  background-repeat: no-repeat;
+  top: 36%;
+  left: 36%;
+
+  //   transform: translate(-50%, -50%);
+}
+
+.job-titel:hover .opening-btn {
+  background: blue;
+}
+.job-titel:hover .opening-btn::before {
+  background-image: url("white.svg");
+}

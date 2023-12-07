@@ -1,0 +1,23 @@
+.swiper-pagination {
+  position: absolute;
+  left: 25% !important;
+  top: 68% !important;
+}
+
+.swiper-pagination-bullet {
+  width: 70px;
+  height: 70px;
+  //   background: red;
+}
+
+.swiper-pagination-bullet {
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .swiper-pagination {
+    position: absolute;
+    left: 10% !important;
+    top: 68% !important;
+  }
+}

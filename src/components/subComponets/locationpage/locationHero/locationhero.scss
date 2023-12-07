@@ -1,0 +1,19 @@
+.opening-btn::before {
+  content: "";
+  position: absolute;
+  background-image: url("arrow.svg");
+  width: 44px;
+  height: 44px;
+  background-repeat: no-repeat;
+  top: 36%;
+  left: 36%;
+
+  //   transform: translate(-50%, -50%);
+}
+
+.location-card:hover .opening-btn {
+  background: blue;
+}
+.location-card:hover .opening-btn::before {
+  background-image: url("white.svg");
+}

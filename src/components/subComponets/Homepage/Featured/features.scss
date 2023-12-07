@@ -1,0 +1,105 @@
+.slick-prev {
+  //   background-image: url("./assets/back.svg");
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  left: 77%;
+  z-index: 999999;
+  background-repeat: no-repeat;
+  bottom: 0;
+  //   right: 30%;
+  top: 90%;
+}
+.slick-next {
+  //   background-image: url("./assets/back.svg");
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  //   left: 30%;
+  right: 15%;
+  bottom: 0;
+  z-index: 999999;
+  background-repeat: no-repeat;
+  top: 90%;
+}
+
+.slick-prev::before {
+  //   content: "←";
+  //   position: absolute !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 20px;
+  line-height: 1;
+  opacity: 0.75;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-explore::before {
+  content: "";
+  position: absolute;
+  background-image: url("../explore/Frame\ 20.png");
+
+  background-repeat: no-repeat;
+  height: 824px;
+  width: 100%;
+  z-index: -1;
+  background-size: 100%;
+}
+
+@media (max-width: 768px) {
+  .main-explore::before {
+    background-size: 250%;
+  }
+}
+
+.progress-bar {
+  background-color: blue;
+  height: 4px;
+  width: 100%;
+  animation: grow 10s linear infinite;
+  transform-origin: left;
+}
+
+@keyframes grow {
+  0% {
+    transform: scaleX(0);
+  }
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: #fff;
+}
+.slick-dots li button:before {
+  font-family: "slick";
+  font-size: 10px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  content: "•";
+  text-align: center;
+  opacity: 0.5;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots {
+  height: 50px;
+  bottom: 4%;
+  right: -21%;
+
+}
+
+.slick-dots li button {
+  color: white;
+  // background: bisque;
+}

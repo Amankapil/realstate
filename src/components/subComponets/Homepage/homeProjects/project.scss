@@ -1,0 +1,60 @@
+.projecs-btn {
+  button {
+    border-radius: 22px;
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  button p {
+    transform: rotate(0deg);
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-image: url("./arrow.svg");
+    height: 20px;
+    background-repeat: no-repeat;
+    width: 20px;
+    margin-top: 6px;
+  }
+  button:hover {
+    border-radius: 22px;
+    background: #1e2ebe;
+    color: #fff;
+  }
+  button:hover p {
+    transform: rotate(45deg);
+    background-image: url("./white.svg");
+  }
+}
+
+.card-hover-btn:hover {
+  border-radius: 22px;
+  background: #1e2ebe;
+  color: #fff !important;
+}
+
+.project-card {
+  width: 400px;
+}
+
+@media (max-width: 410px) {
+  .project-card {
+    width: 100%;
+  }
+
+  .card-hover-btn {
+    // pa
+    // padding: auto !important;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    span {
+      // font-size: 12px !important;
+    }
+  }
+}
+.Enquire-btn:hover {
+  border-radius: 22px;
+  background: #18206e;
+  color: #fff !important;
+}
+.Enquire-btn:hover span {
+  color: #fff !important;
+}
